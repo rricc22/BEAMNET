@@ -1,0 +1,46 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Virtual environments ───────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Jupyter ────────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── FEM simulation artefacts ───────────────────────────────────────────────────
+elmer_cases/
+elmer_mesh/
+CAD/
+
+# ── Trained model + normalisation weights ─────────────────────────────────────
+saves/thermal_pinn.pt
+saves/norm_params.npz
+saves/*.png
+saves/*.vtu
+
+# ── Video output ───────────────────────────────────────────────────────────────
+saves/*.mp4
+
+# ── Weights & Biases ──────────────────────────────────────────────────────────
+wandb/
+
+# ── Ruff / linter cache ───────────────────────────────────────────────────────
+.ruff_cache/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+logs/
+*.log
+
+# ── OS artefacts ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db

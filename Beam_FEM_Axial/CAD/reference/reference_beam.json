@@ -1,0 +1,21 @@
+{
+  "name": "reference_beam",
+  "description": "Square-section prismatic beam 1000x100x100 mm, axis X, cantilever",
+  "a_mm": 100.0,
+  "L_mm": 1000.0,
+  "ratio": [
+    1,
+    1,
+    10
+  ],
+  "axis": "X",
+  "x_fix": 0.0,
+  "x_load": 1000.0,
+  "volume_mm3": 10000000.0,
+  "surface_mm2": 420000.0,
+  "bbox_mm": [
+    1000.0,
+    100.0,
+    100.0
+  ]
+}

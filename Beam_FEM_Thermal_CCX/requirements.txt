@@ -1,0 +1,22 @@
+# Beam_FEM_Thermal_CCX dependencies
+# Install with:  pip install -r requirements.txt
+
+# Core numerics
+numpy>=1.24
+
+# Deep learning
+torch>=2.0          # CPU build is fine; for CUDA see https://pytorch.org/get-started
+
+# FEM post-processing / mesh I/O
+meshio>=5.3         # VTU → VTK conversion
+
+# Visualisation
+matplotlib>=3.7     # PNG comparison plots  (src/inference.py)
+pyvista>=0.42       # 3-D video rendering   (scripts/make_video.py)
+
+# Experiment tracking (optional — graceful fallback if missing)
+wandb               # pip install wandb
+
+# System packages — install outside pip
+# freecad       →  snap install freecad           (scripts 01, 02)
+# elmer         →  sudo apt install elmer         (script  04)
