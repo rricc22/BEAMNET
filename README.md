@@ -29,10 +29,12 @@ pip install -r Beam_FEM_Axial/requirements.txt
 
 ### 3. Pull the datasets (DVC)
 
+Configure the remote with the credentials provided separately (see report title page):
+
 ```bash
 dvc remote add -d storage webdavs://nextcloud.rricc22-homelab.com/remote.php/dav/files/admin/dvc-storage
-dvc remote modify storage user admin
-dvc remote modify storage password G2ATe-QjPiL-YjKGy-dStLp-88r4C
+dvc remote modify storage user <user>
+dvc remote modify storage password <password>
 dvc pull
 ```
 
