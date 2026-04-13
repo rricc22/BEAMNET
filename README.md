@@ -27,7 +27,7 @@ pip install -r Beam_FEM_Thermal_CCX/requirements.txt
 pip install -r Beam_FEM_Axial/requirements.txt
 ```
 
-### 3. Pull the datasets (DVC)
+### 3. Pull the datasets and models (DVC)
 
 Configure the remote with the credentials provided separately (see report title page):
 
@@ -39,8 +39,10 @@ dvc pull
 ```
 
 This downloads:
-- `Beam_FEM_Thermal_CCX/elmer_cases/` — 3.3 GB
-- `Beam_FEM_Axial/ccx_cases/` — 20 GB
+- `Beam_FEM_Thermal_CCX/elmer_cases/` — 3.3 GB (Elmer FEM dataset)
+- `Beam_FEM_Axial/ccx_cases/` — 20 GB (CalculiX FEM dataset)
+- `Beam_FEM_Thermal_CCX/saves/` — best PINN model + ablation model + norm params
+- `Beam_FEM_Axial/saves/` — best PINN model + norm params
 
 ---
 
