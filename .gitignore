@@ -1,0 +1,22 @@
+# Heavy data — not tracked
+ccx_cases/
+elmer_cases/
+saves/
+archives/
+calculix_mesh/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pt
+*.npz
+*.npy
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Wandb
+wandb/
+
+# OS
+.DS_Store
