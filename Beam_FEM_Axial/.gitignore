@@ -43,3 +43,4 @@ logs/
 # ── OS artefacts ──────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
+/ccx_cases

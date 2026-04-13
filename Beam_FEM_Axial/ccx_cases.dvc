@@ -1,0 +1,6 @@
+outs:
+- md5: e83216e9d7f9149e9b4e143de5de16e3.dir
+  size: 20810280389
+  nfiles: 15805
+  hash: md5
+  path: ccx_cases

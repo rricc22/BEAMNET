@@ -44,3 +44,4 @@ logs/
 # ── OS artefacts ──────────────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
+/elmer_cases

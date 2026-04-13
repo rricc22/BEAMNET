@@ -1,0 +1,6 @@
+outs:
+- md5: e3f40643aeb46af3cfdfbd22f4271723.dir
+  size: 3469981318
+  nfiles: 4211
+  hash: md5
+  path: elmer_cases
